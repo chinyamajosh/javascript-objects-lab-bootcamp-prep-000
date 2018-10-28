@@ -24,6 +24,7 @@ function deleteFromObjectByKey(object, key) {
   var meals2 = Object.assign({}, meals)
   
   delete meals2.object
+  return meals
 }
 
   
